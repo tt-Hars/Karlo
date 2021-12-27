@@ -1,11 +1,17 @@
 import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import { Outlet } from 'react-router';
 
 function PreLoginLayout(){
 
     return (
-        <div className="PreLogin">
-            <div style={{padding: '1em'}}>Pre Login</div>
-        </div>
+        <Container className="PreLogin">
+            <Row>
+                <Col>
+                    <Outlet />
+                </Col>
+            </Row>
+        </Container>
     )
 }
 

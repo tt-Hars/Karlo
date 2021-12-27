@@ -1,0 +1,52 @@
+[{
+    "id": 1, "imgPath": "Padhlo_thumb.jpg",
+    "linkDetails": "_padhlo",
+    "heading": "Padhlo. Read Something!",
+    "para": "Read articles, blog posts and news at one place.",
+    "grid_placement": {
+        "gridColumnStart": 1,
+        "gridColumnEnd": 1,
+        "backgroundColor": "blue",
+        "boxShadow": "0 1px 2px rgba(255, 255, 255,0.15)",
+        "transition": "all 0.3s ease-in-out"
+    }
+},
+{
+    "id": 2, "imgPath": "Sunlo_thumb.jpg",
+    "linkDetails": "_sunlo",
+    "heading": "Sunlo. Listen Something!",
+    "para": "Listen to music, podcasts, audio books at one place.",
+    "grid_placement": {
+        "gridColumnStart": 2,
+        "gridColumnEnd": 2,
+        "backgroundColor": "brown",
+        "boxShadow": "0 1px 2px rgba(255, 255, 255,0.15)",
+        "transition": "all 0.3s ease-in-out"
+    }
+},
+{
+    "id": 3, "imgPath": "Dekhlo_thumb.jpg",
+    "linkDetails": "_dekhlo",
+    "heading": "Dekhlo. Watch Something!",
+    "para": "Watch funny, educational, music videos and movies at one place.",
+    "grid_placement": {
+        "gridColumnStart": 2,
+        "gridColumnEnd": 1,
+        "backgroundColor": "darkcyan",
+        "boxShadow": "0 1px 2px rgba(255, 255, 255,0.15)",
+        "transition": "all 0.3s ease-in-out"
+    }
+},
+{
+    "id": 4, "imgPath": "Likhlo_thumb.jpeg",
+    "linkDetails": "_likhlo",
+    "heading": "Likhlo. Write Something!",
+    "para": "Write anything in the rich text editor.",
+    "grid_placement": {
+        "gridColumnStart": 2,
+        "gridColumnEnd": 2,
+        "backgroundColor": "darkolivegreen",
+        "boxShadow": "0 1px 2px rgba(255, 255, 255,0.15)",
+        "transition": "all 0.3s ease-in-out"
+    }
+}]

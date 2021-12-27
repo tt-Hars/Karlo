@@ -1,11 +1,20 @@
 import React from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
 import './Header.scss';
 
-function Header(){
+function Header() {
 
     return (
         <div className="Header">
-            <div>header</div>
+            <Container fluid>
+                <Row>
+                    <Col>
+                        <div className="d-flex align-items-center justify-content-center">
+                            <span>Header</span>
+                        </div>
+                    </Col>
+                </Row>
+            </Container>
         </div>
     )
 }

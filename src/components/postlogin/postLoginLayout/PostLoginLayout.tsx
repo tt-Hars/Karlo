@@ -1,11 +1,17 @@
 import React from 'react';
+import { Stack } from 'react-bootstrap';
+import { Outlet } from 'react-router';
+import Footer from '../../footer/Footer';
+import Header from '../../header/Header';
 
 function PostLoginLayout(){
 
     return (
-        <div className="PostLogin">
-            <div style={{padding: '1em'}}>Post Login</div>
-        </div>
+        <Stack className="PostLogin">
+            <Header />
+                <Outlet />
+            <Footer />
+        </Stack>
     )
 }
 
