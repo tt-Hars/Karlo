@@ -5,4 +5,8 @@ export default interface LandingRightDetails{
     heading: string;
     para: string;
     grid_placement: object;
+    route: {
+        path: string;
+        params: object;
+    };
 }

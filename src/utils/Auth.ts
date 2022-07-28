@@ -1,3 +1,3 @@
 export default function checkAuth() {
-    return false;
+    return true;
 }
